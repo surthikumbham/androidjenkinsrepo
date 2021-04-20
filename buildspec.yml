@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - chmod +x ./gradlew
+      - ./gradlew assembleDebug
+artifacts:
+  files:
+    - './android/app/build/outputs/**/*.apk'
+  discard-paths: yes
+secondary-artifacts:
+files:
+    - './android/app/build/outputs/**/*.apk'
+  discard-paths: yes
