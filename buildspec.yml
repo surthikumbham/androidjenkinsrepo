@@ -9,7 +9,3 @@ artifacts:
   files:
     - './android/app/build/outputs/**/*.apk'
   discard-paths: yes
-secondary-artifacts:
-files:
-    - './android/app/build/outputs/**/*.apk'
-  discard-paths: yes
